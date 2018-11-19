@@ -3,7 +3,7 @@
 using namespace std;
 
 // DEFINE YOUR TEST
-#define TEST1
+#define TEST2
 
 #ifdef TEST1
 //		What single specific paricular one-thing is being tested?:
@@ -16,8 +16,6 @@ using namespace std;
 int main() {
 	
 	List<int> l;
-	Stack<std::string> stack;
-	stack.pop();
 
 	l.addToRear(3);
 	l.addToFront(-1);
@@ -29,12 +27,11 @@ int main() {
 
 	l.deleteItem(2);
 	l.printItems();
-	system("pause");
 	return 0;
 }
 
 #elif defined(TEST2)
-//		What single specific paricular one-thing is being tested?:
+//		What single specific paricular one-thaing is being tested?:
 //		What is expected?:
 //		What happens?:
 #include"stack.h"
@@ -70,6 +67,7 @@ int main() {
 
 	queue.printQueue();
 	
+	system("pause");
 
 	return 0;
 }

@@ -46,7 +46,21 @@ Stack<Type>::Stack() :m_list() {
 template<typename Type>
 void Stack<Type>::push(Type item) {
 	/* TODO */
-	
+
+	/*
+	if (isEmpty() == true)
+	{
+		m_list.size++;
+		m_list.head = new m_list.Node(item, nullptr);
+	}
+	else if (isEmpty() == false)
+	{
+		m_list.size++;
+		m_list.Node *tmp;
+		tmp = new m_list.Node(item, m_list.head);
+		m_list.head = tmp;
+	}
+	*/
 }
 
 // 3. pop():
@@ -55,10 +69,19 @@ void Stack<Type>::push(Type item) {
 template<typename Type>
 void Stack<Type>::pop() {
 	/* TODO */
-	if (m_list().head == nullptr)
-	{
-		std::cout << "correcto" << std::endl;
-	}
+	
+	/*
+	
+	m_list.Node *tmp;
+	tmp = m_list.head;
+	m_list.head = m_list.head->next;
+	tmp = nullptr;
+	delete tmp;
+	tmp = 0;
+	m_list.size--;
+
+	*/
+
 }
 
 // 4. isEmpty():
@@ -68,6 +91,13 @@ void Stack<Type>::pop() {
 template<typename Type>
 bool Stack<Type>::isEmpty() const {
 	/* TODO */
+	/*
+	if (m_list.size == 0)
+	{
+		return true;
+	}
+	return true;
+	*/
 }
 
 // 5. peek():
@@ -77,6 +107,13 @@ bool Stack<Type>::isEmpty() const {
 template<typename Type>
 Type Stack<Type>::peek() const {
 	/* TODO */
+
+	/*
+	
+	
+	
+	*/
+
 	Type dumbyVariableSoCodeCompiles_DontActuallyUseThis;
 	return dumbyVariableSoCodeCompiles_DontActuallyUseThis;
 }
@@ -88,8 +125,8 @@ Type Stack<Type>::peek() const {
 template<typename Type>
 void Stack<Type>::printStack() const {
 	/* TODO */
-
-	std::cout << "Front ";
+	
+	/*
 	Node *tmp;
 	tmp = head;
 	while (tmp != nullptr)
@@ -98,7 +135,7 @@ void Stack<Type>::printStack() const {
 		tmp = tmp->next;
 
 	}
-	std::cout << " Rear" << std::endl;
+	*/
 
 }
 #endif//STACK_H

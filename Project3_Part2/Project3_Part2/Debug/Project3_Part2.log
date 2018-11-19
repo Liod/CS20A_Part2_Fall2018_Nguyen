@@ -1,6 +1,10 @@
 ﻿  main.cpp
-c:\users\jorpn\documents\github\cs20a_part2_fall2018_nguyen\stack.h(58): error C2064: term does not evaluate to a function taking 0 arguments
-  c:\users\jorpn\documents\github\cs20a_part2_fall2018_nguyen\stack.h(56): note: while compiling class template member function 'void Stack<std::string>::pop(void)'
-  c:\users\jorpn\documents\github\cs20a_part2_fall2018_nguyen\main.cpp(20): note: see reference to function template instantiation 'void Stack<std::string>::pop(void)' being compiled
-  c:\users\jorpn\documents\github\cs20a_part2_fall2018_nguyen\main.cpp(19): note: see reference to class template instantiation 'Stack<std::string>' being compiled
-c:\users\jorpn\documents\github\cs20a_part2_fall2018_nguyen\stack.h(58): error C2228: left of '.head' must have class/struct/union
+  Generating Code...
+  Compiling...
+  shark.cpp
+  player.cpp
+  game.cpp
+  aquarium.cpp
+  Generating Code...
+  Project3_Part2.vcxproj -> C:\Users\jorpn\Documents\github\CS20A_Part2_Fall2018_Nguyen\Project3_Part2\Debug\Project3_Part2.exe
+  Project3_Part2.vcxproj -> C:\Users\jorpn\Documents\github\CS20A_Part2_Fall2018_Nguyen\Project3_Part2\Debug\Project3_Part2.pdb (Partial PDB)
